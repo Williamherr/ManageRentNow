@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34714.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManageRentNow", "ManageRentNow\ManageRentNow.csproj", "{3EDCEE24-3AA8-402B-B63E-E6DF990AAE25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManageRentNow.Api", "ManageRentNowWebApi\ManageRentNow.Api.csproj", "{327BFB72-DB8B-416F-8170-DA9476AD5FA1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3EDCEE24-3AA8-402B-B63E-E6DF990AAE25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EDCEE24-3AA8-402B-B63E-E6DF990AAE25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EDCEE24-3AA8-402B-B63E-E6DF990AAE25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EDCEE24-3AA8-402B-B63E-E6DF990AAE25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{327BFB72-DB8B-416F-8170-DA9476AD5FA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{327BFB72-DB8B-416F-8170-DA9476AD5FA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{327BFB72-DB8B-416F-8170-DA9476AD5FA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{327BFB72-DB8B-416F-8170-DA9476AD5FA1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {31B80DE5-6617-431E-938E-A12645874659}
+	EndGlobalSection
+EndGlobal
