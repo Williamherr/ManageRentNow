@@ -31,7 +31,7 @@ namespace ManageRentNow.Api.Middleware
                 var error = new
                 {
                     errorId,
-                    message = "An error occurred in the application"
+                    message = ex.Message ?? "An error occurred in the application: unknown error"
                 };
                 await httpContext.Response.WriteAsJsonAsync(error);
             }

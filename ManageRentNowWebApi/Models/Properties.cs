@@ -2,7 +2,7 @@
 
 public class Property
 {
-    public int Id { get; set; }
+   /* public int Id { get; set; }
     public string Address { get; set; }
     public string Type { get; set; } // e.g., Apartment, House, Commercial
     public User Landlord { get; set; } // Association to a User with Role "Landlord"
@@ -20,7 +20,7 @@ public class Property
     public void AddLease(Lease lease)
     {
         Leases.Add(lease);
-    }
+    }*/
 
     // Additional methods specific to property management
 }

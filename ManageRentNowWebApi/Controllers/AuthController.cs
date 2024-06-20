@@ -31,6 +31,8 @@ namespace ManageRentNow.Api.Controllers
 
             var identityResult = await userManager.CreateAsync(identityUser, registerRequestDto.Password);
 
+            
+
             if (identityResult.Succeeded)
             {
                 if (registerRequestDto.Roles != null && registerRequestDto.Roles.Any())
@@ -42,6 +44,11 @@ namespace ManageRentNow.Api.Controllers
                         return Ok("User was register! Please login.");
                     }
                 }
+            }
+
+            if (!identityResult.Succeeded)
+            {
+                return BadRequest(identityResult.Errors);
             }
 
             return BadRequest("Something went wrong");
